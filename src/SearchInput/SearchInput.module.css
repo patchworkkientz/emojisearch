@@ -1,0 +1,50 @@
+.Header {
+    background-color: lightgray;
+    padding: 0 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Search {
+    display: flex;
+    width: 15%;
+    align-self: center;
+}
+
+.Selection {
+    align-self: center;
+}
+
+.Symbol {
+    display: inline-block;
+    margin-right: 16px;
+    align-self: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Symbol:hover {
+    font-size: 33px;
+}
+
+.Input {
+    margin-left: 16px;
+}
+
+@media (max-width: 500px) {
+    .Header {
+        flex-flow: column nowrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .Search {
+        width: auto;
+        margin: 5px 0;
+    }
+
+    .Selection {
+        margin-bottom: 5px;
+    }
+}

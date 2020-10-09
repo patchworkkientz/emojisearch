@@ -1,0 +1,50 @@
+.List {
+    list-style: none;
+}
+
+.ListItem {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.Card {
+    /*border: 1px solid magenta;*/
+    display: inline-block;
+    align-self: center;
+}
+
+.Title {
+    color: blue;
+    cursor: pointer;
+}
+
+.Title:hover {
+    text-decoration: underline;
+}
+
+.Symbol {
+    /*border: 1px solid magenta;*/
+    display: inline-block;
+    margin-right: 16px;
+    align-self: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.Symbol:hover {
+    font-size: 45px;
+}
+
+.Keywords {
+    display: inline-block;
+    padding: 3px;
+    margin-right: 4px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.Keywords:hover {
+    background-color: yellow !important;
+    color: red;
+    text-decoration: underline;
+}
